@@ -8,12 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var username = ""
-    @State private var password = ""
-    @State private var wrongUsername = 0
-    @State private var wrongPassword = 0
-    @State private var showingLoginScreen = false
-    
+    @StateObject private var viewModel = ViewModel()
+
     var body: some View {
         NavigationStack {
             ZStack {
@@ -22,20 +18,20 @@ struct LoginView: View {
                 Circle().scale(1.35).foregroundColor(.white)
                 VStack {
                     Text("Login").font(.largeTitle).bold().padding()
-                    TextField("Username", text: $username).padding().frame(width:300, height: 50).background(Color.black.opacity(0.05)).cornerRadius(10).border(.red, width: CGFloat(wrongUsername)).textInputAutocapitalization(.never)
-                    SecureField("Password", text: $password).padding().frame(width:300, height: 50).background(Color.black.opacity(0.05)).cornerRadius(10).border(.red, width: CGFloat(wrongPassword)).privacySensitive().textInputAutocapitalization(.never)
+                    TextField("Username", text: $viewModel.username).padding().frame(width:300, height: 50).background(Color.black.opacity(0.05)).cornerRadius(10).border(.red, width: CGFloat(viewModel.wrongUsername)).textInputAutocapitalization(.never)
+                    SecureField("Password", text: $viewModel.password).padding().frame(width:300, height: 50).background(Color.black.opacity(0.05)).cornerRadius(10).border(.red, width: CGFloat(viewModel.wrongPassword)).privacySensitive().textInputAutocapitalization(.never)
                     
                     NavigationLink {
                         WelcomeView()
                     } label: {
                         ZStack{
                             RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(.blue)
+                                .foregroundColor(viewModel.buttonBackgroundColor())
                             Text("Login")
-                                .foregroundColor(.white)
+                                .foregroundColor(viewModel.buttonTextColor())
                         }
                     }.frame(width: 300, height: 50)
-                    .padding().disabled(authenticateUser())
+                        .padding().disabled(viewModel.authenticateUser())
         
                 }
             }
@@ -44,28 +40,15 @@ struct LoginView: View {
         
     }
 
-    func getLoginBackgroundColor() -> Color {
-        if username.count == 0 || password.count == 0 {
-            return Color.gray
-        }
-        else {
-            return Color.blue
-        }
-    }
-    
-    func authenticateUser() -> Bool {
-        return username.count == 0 || password.count == 0
-//        return true
-//        wrongPassword = 2
-//        wrongUsername = 2
-//        if username.lowercased().count != 0 {
-//            wrongUsername = 0
-//            if password.lowercased().count != 0 {
-//                wrongPassword = 0
-//                showingLoginScreen = true
-//            }
+//    func getLoginBackgroundColor() -> Color {
+//        if username.count == 0 || password.count == 0 {
+//            return Color.gray
 //        }
-    }
+//        else {
+//            return Color.blue
+//        }
+//    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -12,6 +12,7 @@
 		B446E22029FB285F00E41C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446E21F29FB285F00E41C83 /* Assets.xcassets */; };
 		B446E22329FB285F00E41C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446E22229FB285F00E41C83 /* Preview Assets.xcassets */; };
 		B446E22A2A003A1B00E41C83 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E2292A003A1B00E41C83 /* WelcomeView.swift */; };
+		B446E22E2A00548D00E41C83 /* LoginView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B446E21F29FB285F00E41C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B446E22229FB285F00E41C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B446E2292A003A1B00E41C83 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				B446E21D29FB285C00E41C83 /* LoginView.swift */,
+				B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */,
 				B446E2292A003A1B00E41C83 /* WelcomeView.swift */,
 			);
 			path = Views;
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B446E21E29FB285C00E41C83 /* LoginView.swift in Sources */,
+				B446E22E2A00548D00E41C83 /* LoginView-ViewModel.swift in Sources */,
 				B446E22A2A003A1B00E41C83 /* WelcomeView.swift in Sources */,
 				B446E21C29FB285C00E41C83 /* Digital_WalletApp.swift in Sources */,
 			);
