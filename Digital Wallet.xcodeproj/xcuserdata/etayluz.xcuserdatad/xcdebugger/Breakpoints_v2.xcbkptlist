@@ -3,4 +3,117 @@
    uuid = "F8C577C4-22FA-438E-B5BA-11C36515C879"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "210E13D6-C2CE-426D-B5D3-B4AC3A2625D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digital Wallet/Controllers/CameraController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "willTransition(to:with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "210E13D6-C2CE-426D-B5D3-B4AC3A2625D7 - b8c6ece342bb69ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digital_Wallet.CameraController.willTransition(to: __C.UITraitCollection, with: __C.UIViewControllerTransitionCoordinator) -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/Controllers/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  uuid = "210E13D6-C2CE-426D-B5D3-B4AC3A2625D7 - b8c6ece342bb69ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digital_Wallet.CameraController.willTransition(to: __C.UITraitCollection, with: __C.UIViewControllerTransitionCoordinator) -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/Controllers/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83E6AF42-2817-439F-84D5-48B27F0A69FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digital Wallet/Controllers/CameraController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "setupCaptureSession()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83E6AF42-2817-439F-84D5-48B27F0A69FE - 50b714d83db2a9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digital_Wallet.CameraController.setupCaptureSession() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/Controllers/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1392">
+               </Location>
+               <Location
+                  uuid = "83E6AF42-2817-439F-84D5-48B27F0A69FE - 50b714d83db2a9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digital_Wallet.CameraController.setupCaptureSession() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/Controllers/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1667">
+               </Location>
+               <Location
+                  uuid = "83E6AF42-2817-439F-84D5-48B27F0A69FE - 50b714d83db2a9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Digital_Wallet.CameraController.setupCaptureSession() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/Controllers/CameraController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

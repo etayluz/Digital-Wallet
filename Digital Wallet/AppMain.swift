@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Digital_WalletApp: App {
+struct AppMain: App {
     var body: some Scene {
         WindowGroup {
             LoginView()

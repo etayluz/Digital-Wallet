@@ -17,7 +17,20 @@ struct WelcomeView: View {
                 Text("• Upload Documents - You shall upload valid ID documents to use for verification")
                 Text("• Validation and summary")
             }.padding(.leading)
-        }.navigationBarBackButtonHidden(true)
+            
+            NavigationLink {
+                LivlinessView()
+            } label: {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 10)
+                        .foregroundColor(.blue)
+                    Text("Start").font(.title3)
+                        .foregroundColor(.white)
+                }
+            }.frame(width: 100, height: 50)
+                .padding(.top, 50).padding(.leading, 20)
+            
+        }//.navigationBarBackButtonHidden(true)
     }
         
 }

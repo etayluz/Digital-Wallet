@@ -7,22 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B446E21C29FB285C00E41C83 /* Digital_WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E21B29FB285C00E41C83 /* Digital_WalletApp.swift */; };
+		B42A4EDA2A0402CB0066D5D2 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4ED52A0402CB0066D5D2 /* ToggleButton.swift */; };
+		B42A4EDB2A0402CB0066D5D2 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4ED62A0402CB0066D5D2 /* ControlView.swift */; };
+		B42A4EDD2A0402CB0066D5D2 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4ED82A0402CB0066D5D2 /* ErrorView.swift */; };
+		B42A4EDE2A0402CB0066D5D2 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4ED92A0402CB0066D5D2 /* FrameView.swift */; };
+		B42A4EE22A0403770066D5D2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EE12A0403770066D5D2 /* ContentViewModel.swift */; };
+		B42A4EEE2A0408780066D5D2 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EEB2A0408770066D5D2 /* FrameManager.swift */; };
+		B42A4EEF2A0408780066D5D2 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EEC2A0408770066D5D2 /* CameraError.swift */; };
+		B42A4EF02A0408780066D5D2 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EED2A0408780066D5D2 /* CameraManager.swift */; };
+		B42A4EF22A04087D0066D5D2 /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EF12A04087D0066D5D2 /* CGImageExtension.swift */; };
+		B446E21C29FB285C00E41C83 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E21B29FB285C00E41C83 /* AppMain.swift */; };
 		B446E21E29FB285C00E41C83 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E21D29FB285C00E41C83 /* LoginView.swift */; };
 		B446E22029FB285F00E41C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446E21F29FB285F00E41C83 /* Assets.xcassets */; };
 		B446E22329FB285F00E41C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446E22229FB285F00E41C83 /* Preview Assets.xcassets */; };
 		B446E22A2A003A1B00E41C83 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E2292A003A1B00E41C83 /* WelcomeView.swift */; };
 		B446E22E2A00548D00E41C83 /* LoginView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */; };
+		B446E2302A005BC600E41C83 /* LivlinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E22F2A005BC600E41C83 /* LivlinessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42A4ED52A0402CB0066D5D2 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		B42A4ED62A0402CB0066D5D2 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		B42A4ED82A0402CB0066D5D2 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		B42A4ED92A0402CB0066D5D2 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		B42A4EE12A0403770066D5D2 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		B42A4EEB2A0408770066D5D2 /* FrameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrameManager.swift; path = Camera/FrameManager.swift; sourceTree = "<group>"; };
+		B42A4EEC2A0408770066D5D2 /* CameraError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraError.swift; path = Camera/CameraError.swift; sourceTree = "<group>"; };
+		B42A4EED2A0408780066D5D2 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraManager.swift; path = Camera/CameraManager.swift; sourceTree = "<group>"; };
+		B42A4EF12A04087D0066D5D2 /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGImageExtension.swift; path = Extension/CGImageExtension.swift; sourceTree = "<group>"; };
 		B446E21829FB285C00E41C83 /* Digital Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B446E21B29FB285C00E41C83 /* Digital_WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_WalletApp.swift; sourceTree = "<group>"; };
+		B446E21B29FB285C00E41C83 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		B446E21D29FB285C00E41C83 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B446E21F29FB285F00E41C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B446E22229FB285F00E41C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B446E2292A003A1B00E41C83 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView-ViewModel.swift"; sourceTree = "<group>"; };
+		B446E22F2A005BC600E41C83 /* LivlinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivlinessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B42A4EE02A0403350066D5D2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */,
+				B42A4EE12A0403770066D5D2 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B42A4EE92A04083E0066D5D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B42A4EF12A04087D0066D5D2 /* CGImageExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B42A4EEA2A04086C0066D5D2 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B42A4EEC2A0408770066D5D2 /* CameraError.swift */,
+				B42A4EED2A0408780066D5D2 /* CameraManager.swift */,
+				B42A4EEB2A0408770066D5D2 /* FrameManager.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
 		B446E20F29FB285C00E41C83 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +102,11 @@
 		B446E21A29FB285C00E41C83 /* Digital Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				B42A4EEA2A04086C0066D5D2 /* Camera */,
+				B42A4EE92A04083E0066D5D2 /* Extensions */,
+				B42A4EE02A0403350066D5D2 /* ViewModels */,
 				B446E22B2A003ADE00E41C83 /* Views */,
-				B446E21B29FB285C00E41C83 /* Digital_WalletApp.swift */,
+				B446E21B29FB285C00E41C83 /* AppMain.swift */,
 				B446E21F29FB285F00E41C83 /* Assets.xcassets */,
 				B446E22129FB285F00E41C83 /* Preview Content */,
 			);
@@ -75,8 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				B446E21D29FB285C00E41C83 /* LoginView.swift */,
-				B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */,
 				B446E2292A003A1B00E41C83 /* WelcomeView.swift */,
+				B446E22F2A005BC600E41C83 /* LivlinessView.swift */,
+				B42A4ED62A0402CB0066D5D2 /* ControlView.swift */,
+				B42A4ED82A0402CB0066D5D2 /* ErrorView.swift */,
+				B42A4ED92A0402CB0066D5D2 /* FrameView.swift */,
+				B42A4ED52A0402CB0066D5D2 /* ToggleButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,10 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42A4EDB2A0402CB0066D5D2 /* ControlView.swift in Sources */,
+				B42A4EDA2A0402CB0066D5D2 /* ToggleButton.swift in Sources */,
+				B42A4EEE2A0408780066D5D2 /* FrameManager.swift in Sources */,
+				B42A4EF02A0408780066D5D2 /* CameraManager.swift in Sources */,
 				B446E21E29FB285C00E41C83 /* LoginView.swift in Sources */,
 				B446E22E2A00548D00E41C83 /* LoginView-ViewModel.swift in Sources */,
+				B42A4EDD2A0402CB0066D5D2 /* ErrorView.swift in Sources */,
 				B446E22A2A003A1B00E41C83 /* WelcomeView.swift in Sources */,
-				B446E21C29FB285C00E41C83 /* Digital_WalletApp.swift in Sources */,
+				B42A4EE22A0403770066D5D2 /* ContentViewModel.swift in Sources */,
+				B42A4EF22A04087D0066D5D2 /* CGImageExtension.swift in Sources */,
+				B42A4EDE2A0402CB0066D5D2 /* FrameView.swift in Sources */,
+				B446E21C29FB285C00E41C83 /* AppMain.swift in Sources */,
+				B446E2302A005BC600E41C83 /* LivlinessView.swift in Sources */,
+				B42A4EEF2A0408780066D5D2 /* CameraError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,19 +347,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Digital Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 9J2FSAJA8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to detect objects.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Digital-Wallet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.Digital-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,19 +378,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Digital Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 9J2FSAJA8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to detect objects.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Digital-Wallet";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.Digital-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
