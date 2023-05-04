@@ -44,41 +44,25 @@ struct ControlView: View {
         VStack(alignment: .leading) {
             Text("Please smile !!! Click button to continue").bold().font(.title3).padding(.bottom).background(.white)
 
-            NavigationLink {
-    //              LivlinessView()
-            } label: {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 10)
-                        .foregroundColor(.blue)
-                    Text("Validate").font(.title3)
-                        .foregroundColor(.white)
-                }
-            }.frame(width: 100, height: 50)
-                .padding(.top, 10)
-
-
-
+            HStack(spacing: 12) {
+                NavigationLink {
+                //              LivlinessView()
+                } label: {
+                  ZStack {
+                      RoundedRectangle(cornerRadius: 10)
+                          .foregroundColor(.blue)
+                      Text("Validate").font(.title3)
+                          .foregroundColor(.white)
+                  }
+                }.frame(width: 100, height: 50).padding(.top, 10)
+                
+//                ToggleButton(selected: $comicSelected, label: "Comic")
+//                ToggleButton(selected: $monoSelected, label: "Mono")
+               // ToggleButton(selected: $crystalSelected, label: "Crystal")
+            }
 
         }
-//      HStack(spacing: 12) {
-//        ToggleButton(selected: $comicSelected, label: "Comic")
-//        ToggleButton(selected: $monoSelected, label: "Mono")
-//        ToggleButton(selected: $crystalSelected, label: "Crystal")
-//      }
+
     }
   }
 }
-
-//struct ControlView_Previews: PreviewProvider {
-//  static var previews: some View {
-//    ZStack {
-//      Color.black
-//        .edgesIgnoringSafeArea(.all)
-//
-//      ControlView(
-//        comicSelected: .constant(false),
-//        monoSelected: .constant(true),
-//        crystalSelected: .constant(true))
-//    }
-//  }
-//}

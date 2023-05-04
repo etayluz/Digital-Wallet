@@ -43,7 +43,8 @@ struct ToggleButton: View {
     }, label: {
       Text(label)
     })
-    .padding(.vertical, 10)
+    .frame(width: 75, height: 40)
+    .padding(.top, 10)
     .padding(.horizontal)
     .foregroundColor(selected ? .white : .black)
     .background(selected ? Color.blue : .white)

@@ -31,6 +31,8 @@ struct WelcomeView: View {
                 .padding(.top, 50).padding(.leading, 20)
             
         }//.navigationBarBackButtonHidden(true)
+        
+        Spacer()
     }
         
 }
