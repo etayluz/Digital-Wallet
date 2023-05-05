@@ -73,7 +73,7 @@ class ContentViewModel: ObservableObject {
           
 //        let imageOptions =  NSDictionary(object: NSNumber(value: 5) as NSNumber, forKey: CIDetectorImageOrientation as NSString)
 //        let faces = faceDetector?.features(in: ciImage, options: imageOptions as? [String : AnyObject])
-        let faces = faceDetector?.features(in: <#T##CIImage#>, options: [CIDetectorSmile : true])
+        let faces = faceDetector?.features(in: ciImage, options: [CIDetectorSmile : true])
           
         if let face = faces?.first as? CIFaceFeature {
             print("face bounds are \(face.bounds)")
