@@ -10,8 +10,8 @@ import SwiftUI
 
 extension LoginView {
         @MainActor class LoginViewModel: ObservableObject {
-        @Published var username = ""
-        @Published var password = ""
+        @Published var username = "1"
+        @Published var password = "1"
         @Published var wrongUsername = 0
         @Published var wrongPassword = 0
         

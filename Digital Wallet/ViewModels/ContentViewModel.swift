@@ -31,6 +31,7 @@
 /// THE SOFTWARE.
 
 import CoreImage
+import UIKit
 
 class ContentViewModel: ObservableObject {
   @Published var error: Error?
@@ -63,19 +64,47 @@ class ContentViewModel: ObservableObject {
           return nil
         }
 
-        var ciImage = CIImage(cgImage: image)
+        let ciImage = CIImage(cgImage: image)
 
-        if self.comicFilter {
-          ciImage = ciImage.applyingFilter("CIComicEffect")
+        let options: [String : Any] = [CIDetectorAccuracy: CIDetectorAccuracyLow,
+//                                       CIDetectorTracking: true,
+                                       CIDetectorNumberOfAngles: 11]
+        let faceDetector = CIDetector(ofType: CIDetectorTypeFace, context: nil, options: options)
+          
+//        let imageOptions =  NSDictionary(object: NSNumber(value: 5) as NSNumber, forKey: CIDetectorImageOrientation as NSString)
+//        let faces = faceDetector?.features(in: ciImage, options: imageOptions as? [String : AnyObject])
+        let faces = faceDetector?.features(in: <#T##CIImage#>, options: [CIDetectorSmile : true])
+          
+        if let face = faces?.first as? CIFaceFeature {
+            print("face bounds are \(face.bounds)")
+            if face.hasSmile {
+                print("Found smile at \(face.hasSmile)")
+            }
+//            let alert = UIAlertController(title: "Say Cheese!", message: "We detected a face!", preferredStyle: UIAlertController.Style.alert)
+//            //            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+//            let confirmAction = UIAlertAction(title: "OK", style: .default)
+//            alert.addAction(confirmAction)
+//            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+//            alert.addAction(cancelAction)
+//            self.present(alert, animated: true, completion: nil)
         }
-
-        if self.monoFilter {
-          ciImage = ciImage.applyingFilter("CIPhotoEffectNoir")
-        }
-
-        if self.crystalFilter {
-          ciImage = ciImage.applyingFilter("CICrystallize")
-        }
+//          else {
+//           let alert = UIAlertController(title: "No Face!", message: "No face was detected", preferredStyle: UIAlertController.Style.alert)
+//              alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+//              self.present(alert, animated: true, completion: nil)
+//        }
+          
+//        if self.comicFilter {
+//          ciImage = ciImage.applyingFilter("CIComicEffect")
+//        }
+//
+//        if self.monoFilter {
+//          ciImage = ciImage.applyingFilter("CIPhotoEffectNoir")
+//        }
+//
+//        if self.crystalFilter {
+//          ciImage = ciImage.applyingFilter("CICrystallize")
+//        }
 
         return self.context.createCGImage(ciImage, from: ciImage.extent)
       }

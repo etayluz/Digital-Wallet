@@ -115,5 +115,253 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A39E67A-19F4-4694-9AE4-87091B199116"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digital Wallet/ViewModels/ContentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "setupSubscriptions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D32F0262-20C6-4D25-B761-25B9C72C2B85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digital Wallet/ViewModels/ContentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "setupSubscriptions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2FFE9BE-B863-49BF-95E0-85DFDBE55844"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digital Wallet/ViewModels/ContentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "setupSubscriptions()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2FFE9BE-B863-49BF-95E0-85DFDBE55844 - fd1ff0ac176e1abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "837">
+               </Location>
+               <Location
+                  uuid = "F2FFE9BE-B863-49BF-95E0-85DFDBE55844 - fd1ff0ac176e1abd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "2312">
+               </Location>
+               <Location
+                  uuid = "F2FFE9BE-B863-49BF-95E0-85DFDBE55844 - fd1ff0ac176e1962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1372">
+               </Location>
+               <Location
+                  uuid = "F2FFE9BE-B863-49BF-95E0-85DFDBE55844 - fd1ff0ac176e1962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1352">
+               </Location>
+               <Location
+                  uuid = "F2FFE9BE-B863-49BF-95E0-85DFDBE55844 - fd1ff0ac176e1962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1348">
+               </Location>
+               <Location
+                  uuid = "F2FFE9BE-B863-49BF-95E0-85DFDBE55844 - fd1ff0ac176e1962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4698093-58C7-4D7D-9172-75BE6697A044"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Digital Wallet/ViewModels/ContentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "setupSubscriptions()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4698093-58C7-4D7D-9172-75BE6697A044 - fd1ff0ac176e1943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "829">
+               </Location>
+               <Location
+                  uuid = "B4698093-58C7-4D7D-9172-75BE6697A044 - fd1ff0ac176e1943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "2200">
+               </Location>
+               <Location
+                  uuid = "B4698093-58C7-4D7D-9172-75BE6697A044 - fd1ff0ac176e1943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "992">
+               </Location>
+               <Location
+                  uuid = "B4698093-58C7-4D7D-9172-75BE6697A044 - fd1ff0ac176e1943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1340">
+               </Location>
+               <Location
+                  uuid = "B4698093-58C7-4D7D-9172-75BE6697A044 - fd1ff0ac176e1943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "B4698093-58C7-4D7D-9172-75BE6697A044 - fd1ff0ac176e1943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.CVBufferRef&gt;) -&gt; Swift.Optional&lt;Swift.Optional&lt;__C.CGImageRef&gt;&gt; in Digital_Wallet.ContentViewModel.setupSubscriptions() -&gt; ()"
+                  moduleName = "Digital Wallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etayluz/apps/Digital%20Wallet/Digital%20Wallet/ViewModels/ContentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
