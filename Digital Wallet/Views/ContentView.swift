@@ -31,27 +31,52 @@
 /// THE SOFTWARE.
 
 import SwiftUI
+import Amplify
 
 struct ContentView: View {
-    @StateObject private var model = ContentViewModel()
-
-  var body: some View {
-    ZStack {
-      FrameView(image: model.frame)
-        .edgesIgnoringSafeArea(.all)
-
-      ErrorView(error: model.error)
-
-      ControlView(
-        comicSelected: $model.comicFilter,
-        monoSelected: $model.monoFilter,
-        crystalSelected: $model.crystalFilter)
+    
+    var body: some View {
+        Text("Hello, World!")
+            .task {
+                await performOnAppear()
+            }
     }
-  }
+
+    func performOnAppear() async {
+        do {
+            let todos = try await Amplify.DataStore.query(Todo.self)
+            for todo in todos {
+                print("==== Todo ====")
+                print("Name: \(todo.name)")
+                if let description = todo.description {
+                    print("Description: \(description)")
+                }
+                if let priority = todo.priority {
+                    print("Priority: \(priority)")
+                }
+            }
+        } catch {
+            print("Could not query DataStore: \(error)")
+        }
+    }
+//    func performOnAppear() async {
+//        do {
+////            let item = Todo(name: "Build iOS Application",
+////                            description: "Build an iOS application using Amplify")
+//            let item = Todo(name: "Finish quarterly taxes",
+//                            priority: .high,
+//                            description: "Taxes are due for the quarter next week")
+//            let savedItem = try await Amplify.DataStore.save(item)
+//            print("Saved item: \(savedItem.name)")
+//        } catch {
+//            print("Could not save item to DataStore: \(error)")
+//        }
+//    }
 }
 
+// this is use to preview the UI in Xcode
 struct ContentView_Previews: PreviewProvider {
-  static var previews: some View {
-    ContentView()
-  }
+    static var previews: some View {
+        ContentView()
+    }
 }

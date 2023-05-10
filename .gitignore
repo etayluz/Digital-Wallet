@@ -90,3 +90,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 .DS_Store
+
+.vscode/
+Digital\ Wallet/.DS_Store

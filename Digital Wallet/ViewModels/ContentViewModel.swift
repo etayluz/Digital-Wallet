@@ -36,6 +36,7 @@ import UIKit
 class ContentViewModel: ObservableObject {
   @Published var error: Error?
   @Published var frame: CGImage?
+  @Published var hasSmile =  false
 
   var comicFilter = false
   var monoFilter = false

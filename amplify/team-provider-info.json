@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-digitalwallet-dev-152158-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339649236840:role/amplify-digitalwallet-dev-152158-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339649236840:role/amplify-digitalwallet-dev-152158-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-digitalwallet-dev-152158-deployment",
+      "UnauthRoleName": "amplify-digitalwallet-dev-152158-unauthRole",
+      "StackName": "amplify-digitalwallet-dev-152158",
+      "StackId": "arn:aws:cloudformation:us-east-1:339649236840:stack/amplify-digitalwallet-dev-152158/efa82ec0-ef67-11ed-aa65-12d86322d77b",
+      "AmplifyAppId": "d3ox9ae8ykqnb"
+    },
+    "categories": {
+      "api": {
+        "amplifyDatasource": {}
+      },
+      "auth": {
+        "digitalwallete56973e4": {}
+      }
+    }
+  }
+}

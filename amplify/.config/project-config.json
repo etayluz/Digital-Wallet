@@ -1,0 +1,8 @@
+{
+  "projectName": "Digital_Wallet",
+  "version": "3.1",
+  "frontend": "ios",
+  "providers": [
+    "awscloudformation"
+  ]
+}

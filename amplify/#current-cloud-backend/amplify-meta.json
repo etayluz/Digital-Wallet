@@ -1,0 +1,83 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-digitalwallet-dev-152158-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339649236840:role/amplify-digitalwallet-dev-152158-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339649236840:role/amplify-digitalwallet-dev-152158-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-digitalwallet-dev-152158-deployment",
+      "UnauthRoleName": "amplify-digitalwallet-dev-152158-unauthRole",
+      "StackName": "amplify-digitalwallet-dev-152158",
+      "StackId": "arn:aws:cloudformation:us-east-1:339649236840:stack/amplify-digitalwallet-dev-152158/efa82ec0-ef67-11ed-aa65-12d86322d77b",
+      "AmplifyAppId": "d3ox9ae8ykqnb"
+    }
+  },
+  "api": {
+    "amplifyDatasource": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "description": "",
+              "apiKeyExpirationDays": 7
+            }
+          }
+        },
+        "GraphQLAPIIdOutput": "rpomsgefm5cyflcxjj4yf4rqgy",
+        "GraphQLAPIEndpointOutput": "https://ozb632fdkbhjplhqlb6sgz5tmq.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-wtzxqwiut5fz7mflmw4n7h3i34"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-digitalwallet-dev-152158-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiamplifyDatasource"
+      },
+      "lastPushTimeStamp": "2023-05-10T19:47:02.133Z",
+      "lastPushDirHash": "LqbhuOGwpeGhLrp64itP3n49b40="
+    }
+  },
+  "auth": {
+    "digitalwallete56973e4": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-digitalwallet-dev-152158-deployment/amplify-cfn-templates/auth/digitalwallete56973e4-cloudformation-template.json",
+        "logicalId": "authdigitalwallete56973e4"
+      },
+      "lastPushTimeStamp": "2023-05-10T19:47:02.357Z",
+      "output": {
+        "UserPoolId": "us-east-1_lAysFwo70",
+        "AppClientIDWeb": "5k9tlesitqgl2395cfcaqivmff",
+        "AppClientID": "31ecs0q0509ocdgl70mklf5r9t",
+        "IdentityPoolId": "us-east-1:df3bd042-4c09-4397-8bcb-b2887181f790",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:339649236840:userpool/us-east-1_lAysFwo70",
+        "IdentityPoolName": "digitalwallete56973e4_identitypool_e56973e4__dev",
+        "UserPoolName": "digitalwallete56973e4_userpool_e56973e4"
+      },
+      "lastPushDirHash": "AO+GJsQZoXoHtm31DviH2exyPhs="
+    }
+  }
+}

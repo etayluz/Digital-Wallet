@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288FA902887B36F13A07E772 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE3209DD74DA441FDB9B977 /* awsconfiguration.json */; };
+		52217B0F302973E437BEB248 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95959B6F4BF9D98D88DCE95F /* Priority.swift */; };
+		6FB6D44E9D929E0B82A6E822 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33992432CC3733E9E0D47B /* Todo.swift */; };
+		81E0C72788216DD7B1E17399 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740C83898D1D1B47EF19DED /* AmplifyModels.swift */; };
+		8F84F5DBF5A3FCF0E8E3B634 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E19AEC996CB47B7651EAD98 /* amplifyconfiguration.json */; };
+		9EF24BB0726B61B783A99BFA /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1BD99FADEA041F6874826 /* Todo+Schema.swift */; };
+		B4238DC12A0C21C400BB7BD8 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B4238DC02A0C21C400BB7BD8 /* AWSDataStorePlugin */; };
+		B4238DC32A0C28A200BB7BD8 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B4238DC22A0C28A200BB7BD8 /* AWSAPIPlugin */; };
+		B4238DC72A0C2F2800BB7BD8 /* Authenticator in Frameworks */ = {isa = PBXBuildFile; productRef = B4238DC62A0C2F2800BB7BD8 /* Authenticator */; };
 		B42A4EDA2A0402CB0066D5D2 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4ED52A0402CB0066D5D2 /* ToggleButton.swift */; };
 		B42A4EDB2A0402CB0066D5D2 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4ED62A0402CB0066D5D2 /* ControlView.swift */; };
 		B42A4EDD2A0402CB0066D5D2 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4ED82A0402CB0066D5D2 /* ErrorView.swift */; };
@@ -16,6 +25,9 @@
 		B42A4EEF2A0408780066D5D2 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EEC2A0408770066D5D2 /* CameraError.swift */; };
 		B42A4EF02A0408780066D5D2 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EED2A0408780066D5D2 /* CameraManager.swift */; };
 		B42A4EF22A04087D0066D5D2 /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EF12A04087D0066D5D2 /* CGImageExtension.swift */; };
+		B42A4EF52A0C12BA0066D5D2 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B42A4EF42A0C12BA0066D5D2 /* AWSCognitoAuthPlugin */; };
+		B42A4EF72A0C12BA0066D5D2 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = B42A4EF62A0C12BA0066D5D2 /* Amplify */; };
+		B42A4EFD2A0C17550066D5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A4EFC2A0C17550066D5D2 /* ContentView.swift */; };
 		B446E21C29FB285C00E41C83 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E21B29FB285C00E41C83 /* AppMain.swift */; };
 		B446E21E29FB285C00E41C83 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446E21D29FB285C00E41C83 /* LoginView.swift */; };
 		B446E22029FB285F00E41C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446E21F29FB285F00E41C83 /* Assets.xcassets */; };
@@ -26,6 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E33992432CC3733E9E0D47B /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
+		5740C83898D1D1B47EF19DED /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		8FD1BD99FADEA041F6874826 /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
+		95959B6F4BF9D98D88DCE95F /* Priority.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Priority.swift; path = amplify/generated/models/Priority.swift; sourceTree = "<group>"; };
+		9E19AEC996CB47B7651EAD98 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		B4238DC42A0C2AB100BB7BD8 /* Digital Wallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Digital Wallet.entitlements"; sourceTree = "<group>"; };
 		B42A4ED52A0402CB0066D5D2 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		B42A4ED62A0402CB0066D5D2 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		B42A4ED82A0402CB0066D5D2 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
@@ -35,6 +53,7 @@
 		B42A4EEC2A0408770066D5D2 /* CameraError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraError.swift; path = Camera/CameraError.swift; sourceTree = "<group>"; };
 		B42A4EED2A0408780066D5D2 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraManager.swift; path = Camera/CameraManager.swift; sourceTree = "<group>"; };
 		B42A4EF12A04087D0066D5D2 /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGImageExtension.swift; path = Extension/CGImageExtension.swift; sourceTree = "<group>"; };
+		B42A4EFC2A0C17550066D5D2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B446E21829FB285C00E41C83 /* Digital Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B446E21B29FB285C00E41C83 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		B446E21D29FB285C00E41C83 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -43,6 +62,7 @@
 		B446E2292A003A1B00E41C83 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		B446E22D2A00548D00E41C83 /* LoginView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView-ViewModel.swift"; sourceTree = "<group>"; };
 		B446E22F2A005BC600E41C83 /* LivlinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivlinessView.swift; sourceTree = "<group>"; };
+		DAE3209DD74DA441FDB9B977 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +70,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4238DC32A0C28A200BB7BD8 /* AWSAPIPlugin in Frameworks */,
+				B4238DC72A0C2F2800BB7BD8 /* Authenticator in Frameworks */,
+				B4238DC12A0C21C400BB7BD8 /* AWSDataStorePlugin in Frameworks */,
+				B42A4EF52A0C12BA0066D5D2 /* AWSCognitoAuthPlugin in Frameworks */,
+				B42A4EF72A0C12BA0066D5D2 /* Amplify in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A87251B3673571E01EC6B38 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				5740C83898D1D1B47EF19DED /* AmplifyModels.swift */,
+				95959B6F4BF9D98D88DCE95F /* Priority.swift */,
+				8FD1BD99FADEA041F6874826 /* Todo+Schema.swift */,
+				2E33992432CC3733E9E0D47B /* Todo.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		6697EB2CF80C07CDBE54F4D6 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				DAE3209DD74DA441FDB9B977 /* awsconfiguration.json */,
+				9E19AEC996CB47B7651EAD98 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		B4238DBF2A0C21C400BB7BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B42A4EE02A0403350066D5D2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +140,9 @@
 			children = (
 				B446E21A29FB285C00E41C83 /* Digital Wallet */,
 				B446E21929FB285C00E41C83 /* Products */,
+				6697EB2CF80C07CDBE54F4D6 /* AmplifyConfig */,
+				5A87251B3673571E01EC6B38 /* AmplifyModels */,
+				B4238DBF2A0C21C400BB7BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +157,7 @@
 		B446E21A29FB285C00E41C83 /* Digital Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				B4238DC42A0C2AB100BB7BD8 /* Digital Wallet.entitlements */,
 				B42A4EEA2A04086C0066D5D2 /* Camera */,
 				B42A4EE92A04083E0066D5D2 /* Extensions */,
 				B42A4EE02A0403350066D5D2 /* ViewModels */,
@@ -124,6 +180,7 @@
 		B446E22B2A003ADE00E41C83 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B42A4EFC2A0C17550066D5D2 /* ContentView.swift */,
 				B446E21D29FB285C00E41C83 /* LoginView.swift */,
 				B446E2292A003A1B00E41C83 /* WelcomeView.swift */,
 				B446E22F2A005BC600E41C83 /* LivlinessView.swift */,
@@ -151,6 +208,13 @@
 			dependencies = (
 			);
 			name = "Digital Wallet";
+			packageProductDependencies = (
+				B42A4EF42A0C12BA0066D5D2 /* AWSCognitoAuthPlugin */,
+				B42A4EF62A0C12BA0066D5D2 /* Amplify */,
+				B4238DC02A0C21C400BB7BD8 /* AWSDataStorePlugin */,
+				B4238DC22A0C28A200BB7BD8 /* AWSAPIPlugin */,
+				B4238DC62A0C2F2800BB7BD8 /* Authenticator */,
+			);
 			productName = "Digital Wallet";
 			productReference = B446E21829FB285C00E41C83 /* Digital Wallet.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +243,10 @@
 				Base,
 			);
 			mainGroup = B446E20F29FB285C00E41C83;
+			packageReferences = (
+				B42A4EF32A0C12B90066D5D2 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				B4238DC52A0C2F2800BB7BD8 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */,
+			);
 			productRefGroup = B446E21929FB285C00E41C83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +263,8 @@
 			files = (
 				B446E22329FB285F00E41C83 /* Preview Assets.xcassets in Resources */,
 				B446E22029FB285F00E41C83 /* Assets.xcassets in Resources */,
+				288FA902887B36F13A07E772 /* awsconfiguration.json in Resources */,
+				8F84F5DBF5A3FCF0E8E3B634 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +280,7 @@
 				B42A4EEE2A0408780066D5D2 /* FrameManager.swift in Sources */,
 				B42A4EF02A0408780066D5D2 /* CameraManager.swift in Sources */,
 				B446E21E29FB285C00E41C83 /* LoginView.swift in Sources */,
+				B42A4EFD2A0C17550066D5D2 /* ContentView.swift in Sources */,
 				B446E22E2A00548D00E41C83 /* LoginView-ViewModel.swift in Sources */,
 				B42A4EDD2A0402CB0066D5D2 /* ErrorView.swift in Sources */,
 				B446E22A2A003A1B00E41C83 /* WelcomeView.swift in Sources */,
@@ -219,6 +290,10 @@
 				B446E21C29FB285C00E41C83 /* AppMain.swift in Sources */,
 				B446E2302A005BC600E41C83 /* LivlinessView.swift in Sources */,
 				B42A4EEF2A0408780066D5D2 /* CameraError.swift in Sources */,
+				81E0C72788216DD7B1E17399 /* AmplifyModels.swift in Sources */,
+				52217B0F302973E437BEB248 /* Priority.swift in Sources */,
+				9EF24BB0726B61B783A99BFA /* Todo+Schema.swift in Sources */,
+				6FB6D44E9D929E0B82A6E822 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Digital Wallet/Digital Wallet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Digital Wallet/Preview Content\"";
@@ -375,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Digital Wallet/Digital Wallet.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Digital Wallet/Preview Content\"";
@@ -423,6 +500,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4238DC52A0C2F2800BB7BD8 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-authenticator";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B42A4EF32A0C12B90066D5D2 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4238DC02A0C21C400BB7BD8 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B42A4EF32A0C12B90066D5D2 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		B4238DC22A0C28A200BB7BD8 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B42A4EF32A0C12B90066D5D2 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		B4238DC62A0C2F2800BB7BD8 /* Authenticator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4238DC52A0C2F2800BB7BD8 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */;
+			productName = Authenticator;
+		};
+		B42A4EF42A0C12BA0066D5D2 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B42A4EF32A0C12B90066D5D2 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		B42A4EF62A0C12BA0066D5D2 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B42A4EF32A0C12B90066D5D2 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B446E21029FB285C00E41C83 /* Project object */;
 }
